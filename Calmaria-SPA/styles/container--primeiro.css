@@ -23,6 +23,10 @@
     padding-bottom: 3.2rem;
 }
 
+.container__primeiro--texto h1 span {
+    color: var(--azul-escuro);
+}
+
 .container__primeiro--texto-botao {
     width: 31.8rem;
     height: 6.6rem;
@@ -35,10 +39,10 @@
     font-weight: 700;
 }
 
-.container__primeiro--texto-botao:hover{
-  background-color: var(--lilas-escuro);
-  transition: .5s;
-  cursor: pointer;
+.container__primeiro--texto-botao:hover {
+    background: var(--lilas-escuro);
+    transition: .5s;
+    cursor: pointer;
 }
 
 .container__primeiro--imagem {
@@ -81,7 +85,7 @@
 
     .container__primeiro {
         flex-direction: row;
-        padding: 0 220px 80px 220px;
+        padding: 0 22rem 8rem 22rem;
     }
 
     .container__primeiro--imagem {
